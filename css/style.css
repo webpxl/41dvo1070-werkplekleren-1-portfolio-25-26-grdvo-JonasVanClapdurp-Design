@@ -307,3 +307,67 @@ footer {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+
+  article {
+    background-color: rgb(96, 81, 155);
+    position: relative;
+    width: 90%;
+    color: white;
+    padding: 1em;
+
+    .project_content {
+      text-align: left;
+      display: none;
+    }
+
+    i {
+      font-size: 2em;
+    }
+
+    button {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0.1em;
+      right: 0.1em;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    button .fa-x {
+      display: none;
+    }
+
+    button .fa-arrow-down {
+      display: block;
+    }
+  }
+  article.active {
+    .project_content {
+      display: block;
+      img {
+        width: 100%;
+        margin-bottom: 1em;
+      }
+    }
+
+    button .fa-x {
+      display: block;
+    }
+
+    button .fa-arrow-down {
+      display: none;
+    }
+  }
+}

@@ -6,8 +6,8 @@
     <title>Jonas Van Clapdurp - Portfolio-Website WPL1</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/png" href="/img/smallicon.png">
-    <script src="js/script.js"></script>
-    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/2b0e082c7c.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -20,11 +20,10 @@
             <span class='menu-button'></span>
           </label>
             <ul class="menu">
-                <li><a class="cwhite" href="#index">Introduction</a></li>
+                <li><a class="cwhite" href="#introduction">Introduction</a></li>
                 <li><a class="cwhite" href="#skills">Skills</a></li>
                 <li><a class="cwhite" href="#projects">Projects</a></li>
                 <li><a class="cwhite" href="#hobbies">Hobbies</a></li>
-                <li><a class="cwhite" href="#currentinterests">Current Interests</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +35,7 @@
                 <p class="cwhite">A developer and digital designer, at your service! Welcome to my galaxy of creativity!</p>
             </article>
         </section>
-        <section class="characteristics">
+        <section class="characteristics" id="introduction">
             <h2>Let's start of simple...<br>Who am I?</h2>
             <article>
                 <img src="img/shine.png" alt="shining purple star">
@@ -51,7 +50,7 @@
                 <p class="cwhite">Like a black hole I want to absorb knowledge and grow!</p>
             </article>
         </section>
-        <section class="tools">
+        <section class="tools" id="skills">
             <h2 class="cwhite">My expansive knowledge reaches many tools!</h2>
             <article>
                 <h3 class="cwhite">HTML</h3>
@@ -72,6 +71,51 @@
             <article>
                 <h3 class="cwhite">Adobe Suite</h3>
                 <img class="planet" src="img/adobe_planet.png" alt="Adobe Suite">
+            </article>
+        </section>
+        <section class="projects" id="projects">
+            <article class="project">
+                <h2>Portfolio Project</h2>
+                <div class="project_content">
+                    <p>The portfolio project is the website you are on right now! This was a project for the workplace learning 1 subject. The beginning of the project started with sketches and brainstorming on the design and info display in figma. This was difficult since figma was very nex to my previous experience and I had missed the beginning weeks due to jaw surgery, which made recovering from the missed knowledge a stressfull experience. Still I had fun making this! Choosing the theme, listening to feedback from fellow students and adapting to that feedback has made me really love design even more then I already did!</p>
+                </div>
+                <button class="btn">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </article>
+            <article class="project">
+                <h2>Photoshop Advert</h2>
+                <div class="project_content">
+                    <img src="img/photoshop_project.PNG" alt="Photoshop Project">
+                    <p>This was a project made for my Graphic Skills 1 subject. We were tasked with replicating a visual, using knowledge we gathered from photoshop classes. As someone who has never touched anything from Adobe and has only used HTML, CSS, and hard-code, this was an exhilerating new experience for me! I've always loved photo editing since I had used GIMP in my free time and this was such a blast to do, although be it with issues along the way. And it turned out pretty great in my opinion!</p>
+                </div>
+                <button class="btn">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </article>
+            <article class="project">
+                <h2>Anomaly Unknown Website</h2>
+                <div class="project_content">
+                    <img src="img/project_au.PNG" alt="Anomaly Unknown Website">
+                    <p>This was a website I made in my first college, UCLL, for the front-end subject. We got to choose our own subject to base the website upon and I have always been fascinated with game development. Anomaly Unknown is a game I've always thought about making but never actually developed so I thought making a website about it would've turned that dream-project at least a bit into a reality!</p>
+                </div>
+                <button class="btn">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </article>
+            <article class="project">
+                <h2>ICTBase Project</h2>
+                <div class="project_content">
+                    <img src="img/project_ictbase.png" alt="ICTBase Project">
+                    <p>ICTBase was a made-up company that I worked on in secondary school Miniemen. We had to use this company as our brand to present a final product to multiple judges. Branding, home website, goals, services and even a custom made video-advertisement were all part of this bigger project where I was the lead designer!</p>
+                </div>
+                <button class="btn">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <i class="fa-solid fa-x"></i>
+                </button>
             </article>
         </section>
     </main>
